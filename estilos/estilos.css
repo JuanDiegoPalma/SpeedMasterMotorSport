@@ -4,11 +4,20 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: RACING HARD;
+  src: url(../assets/font/RACING\ HARD.ttf);
+}
+.navbar-brand {
+  font-family: RACING HARD;
+}
+
 h2 {
+  font-family: RACING HARD;
   padding: 20px;
   text-align: center;
   color: white;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .call {
@@ -50,13 +59,14 @@ h2 {
 }
 
 footer {
+  font-family: RACING HARD;
   background-image: linear-gradient(to right, #ff0000, #dd1e1f, #b92c2c, #943434, #6d3737, #573333, #412e2e, #2a2929, #212020, #191818, #0f0f0f, #000000);
   color: white;
   padding: 20px;
   text-align: center;
 }
 footer p {
-  font-size: 20px;
+  font-size: 30px;
 }
 footer a {
   color: white;
